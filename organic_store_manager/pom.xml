@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>cn.scau.organic_store</groupId>
+		<artifactId>organic_store_parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>cn.scau.organic_store</groupId>
+	<artifactId>organic_store_manager</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<dependencies>
+		<dependency>
+			<groupId>cn.scau.organic_store</groupId>
+			<artifactId>organic_store_commonutils</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+	</dependencies>
+
+	<modules>
+		<module>organic_store_manager_pojo</module>
+		<module>organic_store_manager_mapper</module>
+		<module>organic_store_manager_service</module>
+		<module>organic_store_manager_web</module>
+	</modules>
+</project>
